@@ -1,0 +1,106 @@
+@import "reset.css";
+
+body{
+    background-color: #f5ececf5;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 
+     Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:20px 0px;
+}
+
+.canvas{
+    width: 800px;
+    height:500px;
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.controls{
+    margin-top:20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controls .controls__btns{
+    margin-bottom: 30px;
+    
+}
+
+.controls__btns button{
+    all:unset;
+    cursor:pointer;
+    background-color:white;
+    padding: 5px 0px;
+    width:80px;
+    text-align:center;
+    border-radius:5px;
+    box-shadow: 0 4px 6px rgba(50,50,93,0.11), 0 1px 3px rgba(0,0,0,0.08);
+    border: 2px solid rgba(0,0,0,0.2);
+    color: rgba(0,0,0,0.8);
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size:12px;
+}
+
+.controls__btns button:active{
+    transform:scale(0.98);
+}
+
+.controls .controls__colors{
+    display:flex;
+}
+
+.controls__colors .controls__colors {
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+    border-radius:25px;
+    cursor: pointer;
+
+}
+
+.controls__range{
+    position: relative;
+    left:450px;
+    top :-200px;
+    width: 150px;
+    height: 20px;
+    transform-origin: center;
+    transform: rotate(-90deg);
+}
+
+
+.slider{
+    -webkit-appearance: none;
+    width: 300px;
+    height: 10px;
+    border-radius: 5px;   
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.6;
+    -webkit-transition: .4s;
+    transition: opacity .4s;
+}
+
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    border-radius: 90%; 
+    background:  #dd1919;
+    cursor: pointer;
+  }
+.slider:hover {
+  opacity: 1; 
+}
+.side{
+    display:flex;
+    
+}
+
