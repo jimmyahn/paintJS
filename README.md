@@ -2,8 +2,10 @@
 Painting board made with Vanilla JS
 
 This is a tutorial on <a href = "https://academy.nomadcoders.co/courses/enrolled/542034">NomadCorder</a>
+Tools : HTML, css, Java Script, canvas api.
 
 [Let's try! My version here.](https://jimmyahn.github.io/paintJS)
+
 
 ## Differences mine with origin.
 - location, shape, color and interaction function(hover) on range bar.
