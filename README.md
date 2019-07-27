@@ -1,7 +1,7 @@
 # paintJS
 Painting board made with Vanilla JS
 
-This is a tutorial on <a href = "https://academy.nomadcoders.co/courses/enrolled/542034">NomadCorder</a>
+This is a tutorial on <a href = "https://academy.nomadcoders.co/courses/enrolled/542034">NomadCorder</a><br>
 Tools : HTML, css, Java Script, canvas api.
 
 [Let's try! My version here.](https://jimmyahn.github.io/paintJS)
