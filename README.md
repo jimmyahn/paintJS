@@ -15,4 +15,4 @@ This is a tutorial on <a href = "https://academy.nomadcoders.co/courses/enrolled
 <img width="500" alt="mine" src="https://user-images.githubusercontent.com/49770504/61988852-1e1cd380-b062-11e9-8628-61d01f95c5e4.PNG"></div>
 
 ### Original version
-<img width="500" alt="origin" src="https://user-images.githubusercontent.com/49770504/61988851-1d843d00-b062-11e9-9b59-164b0235d39e.PNG">
+<img width="500" alt="origin2" src="https://user-images.githubusercontent.com/49770504/61989069-e2cfd400-b064-11e9-9b30-6ebb98dbaf24.PNG">
